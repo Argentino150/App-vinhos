@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Título Representante -->
+        <TextView
+            android:text="Representante"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/vermelho"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Logo -->
+        <ImageView
+            android:src="@drawable/logo1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Texto Salut -->
+        <TextView
+            android:text="Salut"
+            android:textSize="28sp"
+            android:textColor="@color/vermelho"
+            android:layout_marginBottom="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Email -->
+        <EditText
+            android:id="@+id/edtUsuario"
+            android:hint="Email"
+            android:background="@drawable/edit_text_bg"
+            android:padding="12dp"
+            android:minHeight="48dp"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Senha -->
+        <EditText
+            android:id="@+id/edtSenha"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            android:background="@drawable/edit_text_bg"
+            android:padding="12dp"
+            android:minHeight="48dp"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Botão Entrar -->
+        <Button
+            android:id="@+id/btnEntrar"
+            android:text="Entrar"
+            android:textColor="@color/vermelho"
+            android:backgroundTint="@color/cinza"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Botão Registrar -->
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:text="Registrar-se"
+            android:textColor="@color/branco"
+            android:backgroundTint="@color/vermelho"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Esqueci minha senha -->
+        <TextView
+            android:id="@+id/txtEsqueciSenha"
+            android:text="Esqueci minha senha"
+            android:textColor="@color/vermelho"
+            android:textSize="14sp"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>
