@@ -26,10 +26,13 @@
         <activity android:name=".LoginAdminActivity" android:exported="false"/>
         <activity android:name=".LoginRepresentanteActivity"  android:exported="false"/>
         <activity android:name=".MenuAdminActivity" android:exported="false"/>
-        <activity android:name=".VinhosActivity" android:exported="false"/>
+        <activity android:name=".VinhoActivity" android:exported="false"/>
         <activity android:name=".NossaHistoriaActivity" />
         <activity android:name=".SobreNosActivity" />
         <activity android:name=".MissaoVisaoActivity" />
+        <activity android:name=".DiferencialActivity" />
+        <activity android:name=".LocalizacaoActivity" />
+
 
 
 
