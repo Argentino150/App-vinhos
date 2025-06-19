@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Nome do App -->
+    <string name="app_name">TelasRepresentante</string>
+
+    <!-- Botões Gerais -->
+    <string name="entrar">Entrar</string>
+    <string name="registrar">Registrar</string>
+    <string name="sair">sair</string>
+    <string name="back">Voltar</string>
+    <string name="proximo">Próximo</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="salvar">Salvar</string>
+    <string name="salvar_pdf">Salvar em PDF</string>
+    <string name="adicionar_item">Adicionar Item</string>
+    <string name="confirmar_pedido">Confirmar Pedido</string>
+    <string name="ver_resumo_pedido">Ver resumo do pedido</string>
+    <string name="adicionar_imagem">Adicionar imagem</string>
+    <string name="login_falhou">Login falhou.</string>
+
+
+    <!-- Campos Comuns -->
+    <string name="salut">Salut</string>
+
+    <string name="label_nome">Nome</string>
+    <string name="hint_nome">Digite o nome</string>
+
+    <string name="label_sobrenome">Sobrenome</string>
+    <string name="hint_sobrenome">Digite o sobrenome</string>
+
+    <string name="label_cpf">CPF/CNPJ</string>
+    <string name="hint_cpf">123.456.789-10</string>
+
+    <string name="label_email">E-mail</string>
+    <string name="hint_email">Digite o e-mail</string>
+
+
+    <string name="label_senha">senha</string>
+    <string name="hint_senhas">Digite a senha</string>
+
+
+    <string name="label_telefone">Telefone</string>
+    <string name="hint_telefone">Digite o telefone</string>
+
+    <string name="label_endereco">Endereço</string>
+    <string name="hint_endereco">Rua, número, cidade</string>
+
+    <string name="label_regiao">Região</string>
+    <string name="hint_regiao">Digite a região</string>
+
+    <string name="label_status">Status</string>
+
+    <!-- Status Array -->
+    <string-array name="status_array">
+        <item>Selecione</item>
+        <item>Ativo</item>
+        <item>Inativo</item>
+    </string-array>
+
+    <!-- Admin -->
+
+    <string name="entrar_admin">Entrar como Administrador</string>
+    <string name="admin">Administrador</string>
+    <string name="bem_vindo">Bem vindo, User!</string>
+    <string name="vinhos">Vinhos</string>
+    <string name="clientes">Clientes</string>
+    <string name="representantes">Representantes</string>
+    <string name="pedidos">Pedidos</string>
+    <string name="relatorios">Reletorios</string>
+
+
+    <!-- Representantes -->
+    <string name="adicionando_representante">+ representante</string>
+    <string name="buscar_representante">Buscar representante</string>
+    <string name="representante">Representante</string>
+    <string name="entrar_representante">Entrar como representante</string>
+    <string name="cadastro_representante">Cadastro de Representante</string>
+    <string name="editar_representante">Editar Representante</string>
+    <string name="titulo_cadastro">Cadastro de Representante</string>
+    <string name="titulo_editar">Editar Representante</string>
+
+    <!-- Clientes -->
+    <string name="cadastrando_cliente">Cadastrando cliente</string>
+    <string name="editando_cliente">Editando cliente</string>
+    <string name="buscar_cliente">Buscar cliente</string>
+    <string name="adicionar_cliente">+ Cliente</string>
+    <string name="editar_cliente">Editar cliente</string>
+    <string name="excluir_cliente">Excluir cliente</string>
+    <string name="label_representante">Representante responsável</string>
+    <string name="hint_representante">Nome do representante</string>
+
+    <!-- Visitas -->
+    <string name="buscar_visitas">Buscar visitas</string>
+    <string name="nova_visita">+ Nova Visita</string>
+    <string name="cadastrando_nova_visita">Cadastrando nova visita</string>
+    <string name="label_nome_razao">Nome/Razão Social</string>
+    <string name="hint_nome_razao">Nome/Razão Social</string>
+    <string name="label_cpf_cnpj">CPF/CNPJ</string>
+    <string name="hint_cpf_cnpj">CPF/CNPJ</string>
+    <string name="label_data_hora">Data e hora</string>
+
+    <!-- Pedido - Cliente -->
+    <string name="cadastro_pedido_cliente">Cadastro de Pedido - Cliente</string>
+    <string name="label_cliente">Cliente</string>
+    <string name="hint_cliente">Nome do cliente</string>
+    <string name="label_forma_pagamento">Forma de pagamento</string>
+
+    <!-- Pedido - Itens -->
+    <string name="buscar_pedidos">Buscar pedidos</string>
+    <string name="adicionando_pedidos">+ Pedidos</string>
+    <string name="cadastro_pedido_itens">Cadastro de Pedido - Itens</string>
+    <string name="cadastrando_pedido">Cadastrando pedido</string>
+    <string name="dados_cliente">Dados do cliente</string>
+    <string name="lista_produtos">Lista de produtos</string>
+    <string name="status_pedido">Status do pedido</string>
+
+    <!-- Resumo Pedido -->
+    <string name="resumo_pedido">Resumo do Pedido</string>
+
+    <!-- Metas -->
+    <string name="metas_comissoes">Metas e Comissões</string>
+    <string name="meta">Meta</string>
+    <string name="comissao">Comissão</string>
+
+    <!-- Vinho -->
+    <string name="cadastrando_vinho">Cadastrando vinho</string>
+    <string name="editando_vinho">Editando vinho</string>
+    <string name="buscar_vinho">Buscar vinhos</string>
+    <string name="adicionar_vinho">+ Vinho</string>
+    <string name="label_safra">Safra</string>
+    <string name="hint_safra">2014</string>
+    <string name="label_tipo">Tipo</string>
+    <string name="label_descricao">Descrição</string>
+    <string name="hint_descricao">Descrição</string>
+    <string name="label_valor">Valor unitário</string>
+    <string name="hint_valor">Ex: R$ 99,90</string>
+
+    <!-- Pop-up Confirmação Exclusão -->
+    <string name="aviso">Aviso!</string>
+    <string name="mensagem_confirmacao">Essa ação não poderá ser desfeita!</string>
+    <string name="continuar">Continuar</string>
+
+    <!-- Outros campos isolados -->
+    <string name="cliente">Cliente</string>
+    <string name="endereco">Endereço</string>
+    <string name="data">Data</string>
+    <string name="horario">Horário</string>
+
+</resources>

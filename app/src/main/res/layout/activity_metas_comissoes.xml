@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <!-- Barra de Ação com Título e Imagem de Voltar -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_arrow_back"
+            android:contentDescription="@string/back"
+            android:layout_marginEnd="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="@string/metas_comissoes"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/logo2"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:src="@drawable/logo2" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_metas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/meta"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+
+    <!-- Seção de Metas com fundo cinza -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/lightGray"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp">
+
+
+        <TextView
+            android:id="@+id/tv_meta_mes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meta do mês:"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_atingido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Atingido (%):"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_status_atual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status Atual:"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_comissoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/comissao"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Seção de Comissões com fundo cinza -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/lightGray"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/tv_total_vendas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total de vendas realizadas:"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_comissao_pendente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comissão pendente de pagamento:"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_valor_comissao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valor total da comissão:"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</LinearLayout>

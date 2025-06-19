@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="24dp"
+    android:gravity="center"
+    android:layout_centerInParent="true">
+
+    <!-- Título do aviso -->
+    <TextView
+        android:id="@+id/txtTitle"
+        android:text="@string/aviso"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"/>
+
+    <!-- Mensagem do aviso com borda -->
+    <TextView
+        android:id="@+id/txtMessage"
+        android:text="@string/mensagem_confirmacao"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"
+        android:padding="16dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/selectableItemBackground"/>
+
+    <!-- Botões -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <!-- Botão Continuar -->
+        <Button
+            android:id="@+id/btnContinuar"
+            style="@style/PrimaryButton"
+            android:text="@string/continuar"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="16dp"/>
+
+        <!-- Botão Cancelar -->
+        <Button
+            android:id="@+id/btnCancelar"
+            style="@style/ActionButton"
+            android:text="@string/cancelar"
+            android:layout_width="120dp"
+            android:layout_height="48dp"/>
+
+    </LinearLayout>
+</LinearLayout>
