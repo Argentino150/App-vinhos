@@ -4,4 +4,8 @@
     <color name="branco">#FAFAFA</color>
     <color name="vermelho">#800000</color>
     <color name="preto">#000000</color>
+    <color name="vermelhoBtn">#8B0000</color>
+    <color name="cinzaBg">#ECECEC</color>
+    <color name="cinzaText">#8C8C8C</color>
+
 </resources>
