@@ -1,5 +1,30 @@
 <resources>
-    <string name="app_name">Projeto_Interdiciplinar</string>
+    <string name="app_name">Salut</string>
+
+    <!-- Menu Admin -->
+    <string name="boas_vindas">Bem vindo!</string>
+    <string name="painel_administrativo">Painel Administrativo</string>
+
+    <!-- Vinhos -->
+    <string name="titulo_vinhos">Nossos vinhos</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <string name="frase_impacto_historia">Cada garrafa conta uma história. A nossa começa aqui.</string>
 
@@ -16,5 +41,151 @@ Hoje, com orgulho, seguimos crescendo e conquistando apreciadores de vinho em to
     <string name="texto_missao">Oferecer experiências únicas e inesquecíveis por meio de vinhos que expressam a essência da nossa terra, com qualidade, tradição e inovação.</string>
     <string name="texto_visao">Ser reconhecida como uma das principais vinícolas do Brasil, referência em qualidade, sustentabilidade e relacionamento com o cliente.</string>
 
+
+    <string name="frase_impacto_diferencial">"Mais que vinhos, experiências que marcam momentos."</string>
+    <string name="titulo_diferencial1">Inovação que aproxima</string>
+    <string name="titulo_diferencial2">Tradição e tecnologia</string>
+    <string name="titulo_diferencial3">Sustentabilidade Ambiental</string>
+    <string name="titulo_diferencial4">Atendimento Personalizado</string>
+    <string name="texto_diferencial1">Buscamos proporcionar uma experiência de compra ágil, personalizada e que
+        fortalece nossa relação com cada cliente e parceiro.</string>
+    <string name="texto_diferencial2">Acreditamos na união perfeita entre tradição e inovação. Mantemos técnicas artesanais, aprimoradas com tecnologias modernas, para criar vinhos que respeitam nosso legado e ao mesmo tempo são otimizados para os desafios do futuro. Cada garrafa é resultado da nossa paixão pela
+        vitivinicultura e da busca constante por qualidade e eficiência</string>
+    <string name="texto_diferencial3">Buscamos implementar práticas sustentáveis em todas as etapas da produção, desde o cultivo das uvas
+        até o processo de engarrafamento, para preservar o meio ambiente e garantir um futuro mais verde para as próximas gerações.</string>
+    <string name="texto_diferencial4">Nosso atendimento vai além de uma simples venda. Criamos experiências exclusivas para nossos clientes, oferecendo consultoria
+        personalizada e atendimento ágil, sempre focado em suas necessidades</string>
+
+
+    <string name="titulo_localizacao">Nossa localização</string>
+    <string name="texto_localizacao1">A Vinícola Salut está localizada na charmosa cidade de São Joaquim, na Serra Catarinense, uma das
+        regiões mais tradicionais do Brasil na produção de vinhos de altitude.</string>
+    <string name="texto_localizacao2">Vinícola Salut, Rodovia SC-114, Km 25 – Bairro Santa Luzia, São Joaquim – SC, CEP 88650-000</string>
+
+
+
+
+    <string name="texto_terroir">Nossos vinhos refletem o solo e o clima únicos da Serra Gaúcha.</string>
+    <string name="texto_artesanal">Cada garrafa é feita com cuidado, mantendo o sabor original das uvas.</string>
+    <string name="texto_premiacao">Certificados e prêmios nacionais que atestam nossa qualidade.</string>
+    <string name="texto_atendimento">Experiência única, com foco na satisfação de cada cliente.</string>
+
+
+
+
+
+
+
+    <!-- Botões Gerais -->
+    <string name="back">Voltar</string>
+    <string name="proximo">Próximo</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="salvar">Salvar</string>
+    <string name="salvar_pdf">Salvar em PDF</string>
+    <string name="adicionar_item">Adicionar Item</string>
+    <string name="confirmar_pedido">Confirmar Pedido</string>
+    <string name="ver_resumo_pedido">Ver resumo do pedido</string>
+    <string name="adicionar_imagem">Adicionar imagem</string>
+
+    <!-- Campos Comuns -->
+    <string name="label_nome">Nome</string>
+    <string name="hint_nome">Digite o nome</string>
+
+    <string name="label_sobrenome">Sobrenome</string>
+    <string name="hint_sobrenome">Digite o sobrenome</string>
+
+    <string name="label_cpf">CPF/CNPJ</string>
+    <string name="hint_cpf">123.456.789-10</string>
+
+    <string name="label_email">E-mail</string>
+    <string name="hint_email">Digite o e-mail</string>
+
+    <string name="label_telefone">Telefone</string>
+    <string name="hint_telefone">Digite o telefone</string>
+
+    <string name="label_endereco">Endereço</string>
+    <string name="hint_endereco">Rua, número, cidade</string>
+
+    <string name="label_regiao">Região</string>
+    <string name="hint_regiao">Digite a região</string>
+
+    <string name="label_status">Status</string>
+
+    <!-- Status Array -->
+    <string-array name="status_array">
+        <item>Selecione</item>
+        <item>Ativo</item>
+        <item>Inativo</item>
+    </string-array>
+
+    <!-- Representantes -->
+    <string name="cadastro_representante">Cadastro de Representante</string>
+    <string name="editar_representante">Editar Representante</string>
+    <string name="titulo_cadastro">Cadastro de Representante</string>
+    <string name="titulo_editar">Editar Representante</string>
+
+    <!-- Clientes -->
+    <string name="cadastrando_cliente">Cadastrando cliente</string>
+    <string name="editando_cliente">Editando cliente</string>
+    <string name="buscar_cliente">Buscar cliente</string>
+    <string name="adicionar_cliente">+ Cliente</string>
+    <string name="editar_cliente">Editar cliente</string>
+    <string name="excluir_cliente">Excluir cliente</string>
+    <string name="label_representante">Representante responsável</string>
+    <string name="hint_representante">Nome do representante</string>
+
+    <!-- Visitas -->
+    <string name="nova_visita">Nova Visita</string>
+    <string name="cadastrando_nova_visita">Cadastrando nova visita</string>
+    <string name="label_nome_razao">Nome/Razão Social</string>
+    <string name="hint_nome_razao">Nome/Razão Social</string>
+    <string name="label_cpf_cnpj">CPF/CNPJ</string>
+    <string name="hint_cpf_cnpj">CPF/CNPJ</string>
+    <string name="label_data_hora">Data e hora</string>
+
+    <!-- Pedido - Cliente -->
+    <string name="cadastro_pedido_cliente">Cadastro de Pedido - Cliente</string>
+    <string name="label_cliente">Cliente</string>
+    <string name="hint_cliente">Nome do cliente</string>
+    <string name="label_forma_pagamento">Forma de pagamento</string>
+
+    <!-- Pedido - Itens -->
+    <string name="cadastro_pedido_itens">Cadastro de Pedido - Itens</string>
+    <string name="cadastrando_pedido">Cadastrando pedido</string>
+    <string name="dados_cliente">Dados do cliente</string>
+    <string name="lista_produtos">Lista de produtos</string>
+    <string name="status_pedido">Status do pedido</string>
+
+    <!-- Resumo Pedido -->
+    <string name="resumo_pedido">Resumo do Pedido</string>
+
+    <!-- Metas -->
+    <string name="metas_comissoes">Metas e Comissões</string>
+    <string name="meta">Meta</string>
+    <string name="comissao">Comissão</string>
+
+    <!-- Vinho -->
+    <string name="cadastrando_vinho">Cadastrando vinho</string>
+    <string name="editando_vinho">Editando vinho</string>
+    <string name="buscar_vinho">Buscar vinhos</string>
+    <string name="adicionar_vinho">+ Vinho</string>
+    <string name="label_safra">Safra</string>
+    <string name="hint_safra">Ex: 2014</string>
+    <string name="label_tipo">Tipo</string>
+    <string name="label_descricao">Descrição</string>
+    <string name="hint_descricao">Descrição</string>
+    <string name="label_valor">Valor unitário</string>
+    <string name="hint_valor">Ex: R$ 99,90</string>
+
+    <!-- Pop-up Confirmação Exclusão -->
+    <string name="aviso">Aviso!</string>
+    <string name="mensagem_confirmacao">Essa ação não poderá ser desfeita!</string>
+    <string name="continuar">Continuar</string>
+
+    <!-- Outros campos isolados -->
+    <string name="cliente">Cliente</string>
+    <string name="endereco">Endereço</string>
+    <string name="data">Data</string>
+    <string name="horario">Horário</string>
 
 </resources>

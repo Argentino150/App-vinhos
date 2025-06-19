@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bem vindo, user!"
+        android:text="@string/boas_vindas"
         android:textColor="@color/vermelho"
         android:textSize="24sp"
         android:layout_marginBottom="30dp" />
@@ -19,7 +19,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Painel Administrativo"
+        android:text="@string/painel_administrativo"
+        android:textStyle="bold"
         android:textColor="@color/vermelho"
         android:textSize="24sp"
         android:layout_marginBottom="82dp" />

@@ -7,5 +7,12 @@
     <color name="vermelhoBtn">#8B0000</color>
     <color name="cinzaBg">#ECECEC</color>
     <color name="cinzaText">#8C8C8C</color>
+    <color name="primaryColor">#B71C1C</color> <!-- Vermelho escuro -->
+    <color name="secondaryColor">#757575</color> <!-- Cinza médio -->
+    <color name="lightGray">#EEEEEE</color> <!-- Cinza claro para backgrounds -->
+    <color name="white">#FAFAFA</color>
+    <color name="black">#000000</color>
+
+
 
 </resources>
