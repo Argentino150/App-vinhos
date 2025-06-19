@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Projeto_Interdiciplinar</string>
+
+    <string name="frase_impacto_historia">Cada garrafa conta uma história. A nossa começa aqui.</string>
+
+    <string name="texto_nossa_historia">Fundada com paixão no coração da Serra Gaúcha, a Vinícola Salut nasceu do sonho de uma família apaixonada por vinhos e pelo cultivo da uva.
+
+Desde os primeiros parreirais até as modernas instalações de hoje, cada etapa da nossa trajetória foi marcada pela dedicação à qualidade e ao respeito às tradições vitivinícolas da região.
+
+Ao longo dos anos, combinamos técnicas tradicionais com inovações tecnológicas para criar vinhos que expressam o melhor do nosso terroir.
+
+Nossa missão sempre foi oferecer experiências únicas aos nossos clientes, levando a essência da nossa terra em cada garrafa.
+
+Hoje, com orgulho, seguimos crescendo e conquistando apreciadores de vinho em todo o Brasil.</string>
+
+    <string name="texto_missao">Oferecer experiências únicas e inesquecíveis por meio de vinhos que expressam a essência da nossa terra, com qualidade, tradição e inovação.</string>
+    <string name="texto_visao">Ser reconhecida como uma das principais vinícolas do Brasil, referência em qualidade, sustentabilidade e relacionamento com o cliente.</string>
+
+
 </resources>

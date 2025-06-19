@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class Menuinicial  extends AppCompatActivity {
 
-    Button btnRepresentante, btnAdministrador;
+    Button btnRepresentante, btnAdministrador, btnSobreNos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +17,7 @@ public class Menuinicial  extends AppCompatActivity {
 
         btnRepresentante = findViewById(R.id.btnRepresentante);
         btnAdministrador = findViewById(R.id.btnAdministrador);
+        btnSobreNos = findViewById(R.id.btnSobreNos);
 
         btnRepresentante.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,6 +31,14 @@ public class Menuinicial  extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Menuinicial.this, LoginAdminActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnSobreNos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Menuinicial.this, SobreNosActivity.class);
                 startActivity(intent);
             }
         });
