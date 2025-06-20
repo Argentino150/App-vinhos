@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="primaryColor">#B71C1C</color> <!-- Vermelho escuro -->
+    <color name="secondaryColor">#757575</color> <!-- Cinza médio -->
+    <color name="lightGray">#EEEEEE</color> <!-- Cinza claro para backgrounds -->
+    <color name="Vinho">#800000</color>
+    <color name="green">#4CAF50</color>
+
+</resources>

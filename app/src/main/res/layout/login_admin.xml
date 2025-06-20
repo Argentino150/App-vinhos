@@ -1,0 +1,88 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Título Administrador -->
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            style="@style/TitleText"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/admin"
+            android:textColor="@color/primaryColor" />
+
+        <ImageView
+            android:src="@drawable/logo1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:text="Salut"
+            android:textSize="28sp"
+            android:textColor="@color/primaryColor"
+            android:layout_marginBottom="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edtUsuario"
+            android:hint="@string/hint_email"
+            android:background="@drawable/edit_text_bg"
+            android:padding="12dp"
+            android:minHeight="48dp"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edtSenha"
+            android:hint="@string/hint_senhas"
+            android:inputType="textPassword"
+            android:background="@drawable/edit_text_bg"
+            android:padding="12dp"
+            android:minHeight="48dp"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Botão Entrar -->
+        <android.widget.Button
+            android:id="@+id/btnEntrar"
+            style="@style/SecondaryButton"
+            android:layout_width="239dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/entrar" />
+
+        <!-- Botão Registrar -->
+        <android.widget.Button
+            android:id="@+id/btnRegistrar"
+            style="@style/ActionButton"
+            android:layout_width="237dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:text="@string/registrar" />
+
+        <TextView
+            android:id="@+id/txtEsqueciSenha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:text="Esqueci minha senha"
+            android:textColor="@color/primaryColor"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</ScrollView>

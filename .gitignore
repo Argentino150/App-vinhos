@@ -1,0 +1,10 @@
+# Diretórios a serem ignorados
+.gradle/
+.idea/
+build/
+app/build/
+
+# Arquivos a serem ignorados
+*.iml
+local.properties
+.DS_Store
